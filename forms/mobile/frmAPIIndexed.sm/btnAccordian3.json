@@ -1,0 +1,62 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "18dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sd82a92943a5422ea15e30aa923b52c6",
+    "_src_": "chevron_normal.png",
+    "_top_": {
+        "type": "string",
+        "value": "21dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "18dp"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "frmAPIIndexed",
+        "platform": "iphone",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "id": "btnAccordian3",
+    "imagescalemode": 1,
+    "info": null,
+    "invokedProperty": "src",
+    "isvisible": true,
+    "kuid": "h99aef14062249c5a3e69f6bf92cfc6d",
+    "name": "kony.ui.Image2",
+    "parent": "flexAcc3",
+    "pf": "frmAPIIndexed",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

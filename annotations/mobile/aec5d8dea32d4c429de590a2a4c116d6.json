@@ -1,0 +1,29 @@
+{
+    "active": 1,
+    "comments": {
+        "aec5d8dea32d4c429de590a2a4c116d6": {
+            "5c61-8d0b-d11c-819e-b64c-b9f7": {
+                "commentId": "5c61-8d0b-d11c-819e-b64c-b9f7",
+                "widgetId": "aec5d8dea32d4c429de590a2a4c116d6",
+                "formId": "aec5d8dea32d4c429de590a2a4c116d6",
+                "createdOn": 1508356236000,
+                "createdById": "67f95b4b-7a1e-499a-9e6c-13849acb1ca5",
+                "createdBy": "Sharad Nandwani",
+                "createdByEmail": "sharad.nandwani@kony.com",
+                "lastModifiedTime": 1508356236000,
+                "comment": "icon must be question mark..",
+                "commentSrc": "functional preview",
+                "active": 1,
+                "channel": "mobile"
+            }
+        }
+    },
+    "projectGuid": "9bde1f77-c15f-485d-bd70-2980716a496d",
+    "accountGuid": "047da162-d5b8-4088-af89-0f280b71528e",
+    "prototypeGuid": "61VZT",
+    "id": "aec5d8dea32d4c429de590a2a4c116d6",
+    "channel": "mobile",
+    "createdOn": 1508743367248,
+    "noteGuid": "26d0e866-f774-4b28-a043-84478edf97a6",
+    "synced_on": "2018-01-07T19:34:43.398Z"
+}

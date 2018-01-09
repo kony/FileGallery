@@ -1,0 +1,146 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizScrollFlexForm",
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s2ee46467acf41ee861888e2c5db5bd8",
+    "_title_": null,
+    "addWidgetsdone": false,
+    "allboxes": [],
+    "android": {
+        "inTransitionConfig": {
+            "formAnimation": 3
+        },
+        "needAppMenu": false,
+        "outTransitionConfig": {
+            "formAnimation": 0
+        },
+        "psp": {
+            "windowSoftInputMode": 2
+        }
+    },
+    "canUpdateUI": true,
+    "children": [
+        "KnowledgeFramework"
+    ],
+    "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "mobile",
+            "name": "frmKnowledgeFrameworkController"
+        }
+    },
+    "currentLocale": "default",
+    "desktopweb": {
+        "needAppMenu": false
+    },
+    "device": "GalaxyS5",
+    "displayorientation": 1,
+    "enabledforidletimeout": false,
+    "id": "frmKnowledgeFramework",
+    "info": null,
+    "initdone": false,
+    "inputaccessoryviewtype": 4,
+    "ipad": {
+        "psp": {
+            "inputAccessoryViewType": 4
+        }
+    },
+    "iphone": {
+        "inTransitionConfig": {
+            "transitionDirection": "fromRight",
+            "transitionDuration": 0.3,
+            "transitionEffect": "transitionPush"
+        },
+        "needAppMenu": false,
+        "outTransitionConfig": {
+            "transitionDirection": "none",
+            "transitionDuration": 0.3,
+            "transitionEffect": "transitionPush"
+        },
+        "psp": {
+            "configureStatusBarStyle": true,
+            "inputAccessoryViewType": 4,
+            "statusBarStyle": "STATUS_BAR_STYLE_LIGHT_CONTENT",
+            "titleBarConfig": {
+                "buttonClosureLeftSideView": "",
+                "buttonClosureRightSideView": "",
+                "buttonText": "Edit",
+                "leftButtonText": "Back",
+                "leftTitle": "Back",
+                "prevFormTitle": false,
+                "renderTitleText": true,
+                "rightTitle": "Edit",
+                "titleBarLeftSideView": "button",
+                "titleBarRightSideView": "button",
+                "titleClosureLeftSideView": "",
+                "titleClosureRightSideView": "",
+                "visible": false
+            }
+        },
+        "titleBar": false
+    },
+    "isvisible": true,
+    "kuid": "d3d7243e95284f318c8ee92dd50c77e2",
+    "layouttype": 2,
+    "name": "kony.ui.Form2",
+    "needappmenu": true,
+    "paddinginpixel": false,
+    "platform": "android",
+    "prevDevice": "iPhone6",
+    "prevPlatform": "iphone",
+    "retainscrollposition": false,
+    "shellCSS": "and_GalaxyS5",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "spa": {
+        "inTransitionConfig": {
+            "formTransition": "none"
+        },
+        "outTransitionConfig": {
+            "formTransition": "none"
+        }
+    },
+    "spaan": {
+        "needAppMenu": false
+    },
+    "spabb": {
+        "needAppMenu": false
+    },
+    "spaip": {
+        "needAppMenu": false
+    },
+    "spawinphone8": {
+        "needAppMenu": false
+    },
+    "statusbarstyle": "STATUS_BAR_STYLE_LIGHT_CONTENT",
+    "titleBarSkin": "s096514ac7f345249da9dbe2a93f3b18",
+    "titlebar": false,
+    "type": 3,
+    "wType": "Form",
+    "winphone8": {
+        "inTransitionConfig": {
+            "inTransition": "none",
+            "transitionMode": "none",
+            "transitionSpeed": 0
+        },
+        "needAppMenu": false,
+        "outTransitionConfig": {
+            "outTransition": "none",
+            "transitionMode": "none",
+            "transitionSpeed": 0
+        }
+    }
+}

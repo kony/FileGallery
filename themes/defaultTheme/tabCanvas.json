@@ -1,0 +1,16 @@
+{
+  "background_color": "ffffffff",
+  "bg_type": "one",
+  "border_color": "414141ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "font_color": "414141ff",
+  "font_name": "Arial",
+  "font_size": 129,
+  "font_style": "normal",
+  "font_weight": "normal",
+  "isDefaultSkin": true,
+  "kuid": "s0a197561595450091f90453e71d07bd",
+  "wType": "TabPane"
+}

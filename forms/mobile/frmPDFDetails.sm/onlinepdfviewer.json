@@ -1,0 +1,58 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s9f93f093d7c4fadbb60a98be410a9b2",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "data": {
+        "ide_onViewDidAppear": {
+            "iphone": "AS_UWI_d12e81369a7b4c40a64c3d7e3aba73bc"
+        }
+    },
+    "id": "onlinepdfviewer",
+    "info": null,
+    "isvisible": true,
+    "kuid": "fcdc469f8cc94935bed3c1785b383cea",
+    "layouttype": 2,
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxData",
+    "pf": "frmPDFDetails",
+    "snaptogrid": true,
+    "sourceUserWidget": "u164336965674d568684de10848cf6eb",
+    "wType": "UserWidgetInstance"
+}

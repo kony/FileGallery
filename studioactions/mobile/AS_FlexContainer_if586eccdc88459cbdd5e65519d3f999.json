@@ -1,0 +1,30 @@
+{
+    "AS_FlexContainer_if586eccdc88459cbdd5e65519d3f999": {
+        "id": "AS_FlexContainer_if586eccdc88459cbdd5e65519d3f999",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmLandingPage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "aec5d8dea32d4c429de590a2a4c116d6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__id522ed7046741af88d5be7fcc350c72",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.KnowledgeFramework1.onTouchMoves(eventobject,x,y);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

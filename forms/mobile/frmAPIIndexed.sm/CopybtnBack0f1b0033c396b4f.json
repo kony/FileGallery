@@ -1,0 +1,61 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sd82a92943a5422ea15e30aa923b52c6",
+    "_src_": "back_icon.png",
+    "_top_": {
+        "type": "string",
+        "value": "21dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "25dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "frmAPIIndexed",
+        "platform": "iphone",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "id": "CopybtnBack0f1b0033c396b4f",
+    "imagescalemode": 0,
+    "info": null,
+    "isvisible": true,
+    "kuid": "eb941c72a4c8460b908568a7e70c6990",
+    "name": "kony.ui.Image2",
+    "parent": "flexClickBack",
+    "pf": "frmAPIIndexed",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

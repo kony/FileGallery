@@ -1,0 +1,17 @@
+{
+    "AS_Button_i91f96d9fa464227bed19a90f6391da1": {
+        "id": "AS_Button_i91f96d9fa464227bed19a90f6391da1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_ec1aafc0c1d54b40adb9131a8f2d193d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.openUptoHalf();",
+            "callbackType": null
+        }]
+    }
+}

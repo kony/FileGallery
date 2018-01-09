@@ -1,0 +1,30 @@
+{
+    "AS_Slider_g2cb936c34ec4913a6ffde52e04fa385": {
+        "id": "AS_Slider_g2cb936c34ec4913a6ffde52e04fa385",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmAudioDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "fc87b704b9f1486ea042cd748f6d0875"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c49f580f2dd04dc3a6951ede3e144ae8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "startPos = this.view.sliderAudio.selectedValue;",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

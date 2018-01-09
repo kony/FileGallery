@@ -1,0 +1,23 @@
+{
+    "AS_NativeContainer_gd74898a6e584552961c05116382c748": {
+        "id": "AS_NativeContainer_gd74898a6e584552961c05116382c748",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwu47d5d1c72384f04b1f600a44d588ea6",
+            "type": "userwidgets",
+            "KUID": "u47d5d1c72384f04b1f600a44d588ea6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ea8f3b34ffc74d95b0beed07a80fc418",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.fetchAndDisplayPDFiOS(eventobject);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

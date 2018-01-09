@@ -1,0 +1,30 @@
+{
+    "AS_Form_g6229ab4f52d4dc78e73b221f8810c35": {
+        "id": "AS_Form_g6229ab4f52d4dc78e73b221f8810c35",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmAudioDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "fc87b704b9f1486ea042cd748f6d0875"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c888b0d0ef0c4d7c974f428987bdf69c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.KnowledgeFramework1.onTouchMoves(eventobject,x,y);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

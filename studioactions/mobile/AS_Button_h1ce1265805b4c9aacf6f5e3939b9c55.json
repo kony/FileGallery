@@ -1,0 +1,17 @@
+{
+    "AS_Button_h1ce1265805b4c9aacf6f5e3939b9c55": {
+        "id": "AS_Button_h1ce1265805b4c9aacf6f5e3939b9c55",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_d28adc945f58414f854f413d02c21b1e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(this.index < this.screenData.length)\n  {\n    if(this.index == 1)\n      this.view.flxInterstitial.setVisibility(false);\n    alert(this.screenData.length);\n     this.index++;\n     this.setPointer(this.screenData[this.index]);\n  }\n ",
+            "callbackType": null
+        }]
+    }
+}

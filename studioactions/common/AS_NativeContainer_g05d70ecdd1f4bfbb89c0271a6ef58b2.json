@@ -1,0 +1,23 @@
+{
+    "AS_NativeContainer_g05d70ecdd1f4bfbb89c0271a6ef58b2": {
+        "id": "AS_NativeContainer_g05d70ecdd1f4bfbb89c0271a6ef58b2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwu47d5d1c72384f04b1f600a44d588ea6",
+            "type": "userwidgets",
+            "KUID": "u47d5d1c72384f04b1f600a44d588ea6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d38856b39d6d4dc7b3b068defc7fe2a2",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.fetchAndDisplayPDFAndroid(eventobject);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

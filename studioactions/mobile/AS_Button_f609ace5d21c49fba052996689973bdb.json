@@ -1,0 +1,24 @@
+{
+    "AS_Button_f609ace5d21c49fba052996689973bdb": {
+        "id": "AS_Button_f609ace5d21c49fba052996689973bdb",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLandingPage",
+            "type": "forms",
+            "platform": null,
+            "KUID": "aec5d8dea32d4c429de590a2a4c116d6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__j11c5aacaa9d48ce9eabce8d34aefc85",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.showMenu();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "AS_Form_j49d9311fc2e45e48f3f600dca2b48ee": {
+        "id": "AS_Form_j49d9311fc2e45e48f3f600dca2b48ee",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmLandingPage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "aec5d8dea32d4c429de590a2a4c116d6"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

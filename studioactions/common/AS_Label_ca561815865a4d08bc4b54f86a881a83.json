@@ -1,0 +1,23 @@
+{
+    "AS_Label_ca561815865a4d08bc4b54f86a881a83": {
+        "id": "AS_Label_ca561815865a4d08bc4b54f86a881a83",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "uwa4111ee47c4a412db70eb51f1d6127ad",
+            "type": "userwidgets",
+            "KUID": "a4111ee47c4a412db70eb51f1d6127ad"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

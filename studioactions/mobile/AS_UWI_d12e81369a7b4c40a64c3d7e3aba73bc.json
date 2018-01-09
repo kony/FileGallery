@@ -1,0 +1,24 @@
+{
+    "AS_UWI_d12e81369a7b4c40a64c3d7e3aba73bc": {
+        "id": "AS_UWI_d12e81369a7b4c40a64c3d7e3aba73bc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPDFDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e533fa197dbc4efd9e46c962a5126c79"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__j554a127a9fe4d8ca25a6522cf6f92cf",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.application.dismissLoadingScreen();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "AS_UWI_e7fcfff28d6f407887807511be841195": {
+        "id": "AS_UWI_e7fcfff28d6f407887807511be841195",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAPIIndexed",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b97678a8228545449c3be42a0eaec27b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__eb30f851388a4f4495bd83fdaad1e363",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "\nkony.phone.openEmail([\"\"], [\"\"], [\"\"],\n        'Functional Preview for File Gallery',\n        \"Hi<br>Please preview the File Gallery app in Kony Visualizer Functional Preview using the following link:<br>https://www.kony.com/marketplace/app_preview?apptolaunch=61VZT<br>or<br>Use the cloud code <b>61VZT</b> in the Kony Visualizer Functional Preview Cloud tab.<br><br><b><u>Note:</b></u> If you don’t have Kony Visualizer Functional Preview installed on your mobile, this link will take you to the download page in App Store/Play Store.\",\n        true);\nthis.hideHam();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

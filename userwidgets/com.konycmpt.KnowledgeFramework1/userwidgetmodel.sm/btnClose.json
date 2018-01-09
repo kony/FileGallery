@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "42.49%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "4%"
+    },
+    "_skin_": "s9c51210b6324aa3bb54901eb8e3f037",
+    "_text_": "Done",
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "48%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s41470e1c0be4700a113aab4d0469089",
+    "id": "btnClose",
+    "ide_onTouchEnd": "AS_Button_abe4f10e0f104eda85096deca9556e0b",
+    "info": null,
+    "isvisible": true,
+    "kuid": "ddcf7e6e9ed04ff5acda2180bccaf3ba",
+    "name": "kony.ui.Button",
+    "parent": "flxbtnClose",
+    "pf": "userwidgetmodel",
+    "wType": "Button",
+    "zindex": 1
+}

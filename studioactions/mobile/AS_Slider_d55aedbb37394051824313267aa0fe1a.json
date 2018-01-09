@@ -1,0 +1,27 @@
+{
+    "AS_Slider_d55aedbb37394051824313267aa0fe1a": {
+        "id": "AS_Slider_d55aedbb37394051824313267aa0fe1a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "selectedvalue"
+        }],
+        "contextObj": {
+            "name": "frmAudioDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "fc87b704b9f1486ea042cd748f6d0875"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b7f36eb8e7994828a5217c0d389db66a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var endPos = this.view.sliderAudio.selectedValue;\nonSlide(endPos);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

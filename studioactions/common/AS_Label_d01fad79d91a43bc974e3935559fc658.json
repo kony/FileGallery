@@ -1,0 +1,29 @@
+{
+    "AS_Label_d01fad79d91a43bc974e3935559fc658": {
+        "id": "AS_Label_d01fad79d91a43bc974e3935559fc658",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "uwa4111ee47c4a412db70eb51f1d6127ad",
+            "type": "userwidgets",
+            "KUID": "a4111ee47c4a412db70eb51f1d6127ad"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e6dcaef135f848e98ae4c80af288d5b3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(this.view.lblCodeSnippet.isVisible == false)\n  {\n    this.view.lblCodeSnippet.setVisibility(true);\n    this.onClickDisplay(eventobject);\n  }\nelse\n  {\n     this.onClickDisappear(eventobject);\n     this.view.lblCodeSnippet.setVisibility(false);\n  }\n  ",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "AS_Button_b64e0681a3014639acc203cc7c1d3386": {
+        "id": "AS_Button_b64e0681a3014639acc203cc7c1d3386",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frm2",
+            "type": "forms",
+            "platform": "",
+            "KUID": "faa4b5e317644f9698f000075434fab2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d4f9d81c1813488fb45b58bfc01f9e74",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var filter = kony.filter.createFilter();\n  var img = kony.image.createImage(\"scenery.jpeg\");\n\n  var filterData = {\n    \"filterName\": kony.filter.COLOR_INVERSION,\n    \"inputImage\": img,\n    \"inputAngle\": 0\n  };\n  filter.applyFilter(filterData);\n\n  var imageObj = filter.getOutputImage();\n  this.view.img.rawBytes=imageObj.getImageAsRawBytes();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

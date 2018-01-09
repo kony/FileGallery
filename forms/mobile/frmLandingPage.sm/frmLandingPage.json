@@ -1,0 +1,156 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizScrollFlexForm",
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sa7a3a8d5646489482e42ae5eeb52e08",
+    "_title_": null,
+    "addWidgetsdone": false,
+    "allboxes": [],
+    "android": {
+        "inTransitionConfig": {
+            "formAnimation": 2
+        },
+        "needAppMenu": false,
+        "outTransitionConfig": {
+            "formAnimation": 0
+        },
+        "psp": {
+            "windowSoftInputMode": 2
+        }
+    },
+    "annotationId": "aec5d8dea32d4c429de590a2a4c116d6",
+    "bounces": false,
+    "canUpdateUI": true,
+    "children": [
+        "flxInterstitial",
+        "flxFullPage",
+        "flxCover",
+        "flxShadow",
+        "hamburger"
+    ],
+    "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "mobile",
+            "name": "frmLandingPageController"
+        }
+    },
+    "currentLocale": "default",
+    "desktopweb": {
+        "needAppMenu": false
+    },
+    "device": "GalaxyS5",
+    "displayorientation": 1,
+    "enabledforidletimeout": false,
+    "enablescrolling": false,
+    "footeroverlap": false,
+    "headeroverlap": false,
+    "id": "frmLandingPage",
+    "info": null,
+    "initdone": false,
+    "inputaccessoryviewtype": 4,
+    "ipad": {
+        "psp": {
+            "inputAccessoryViewType": 4
+        }
+    },
+    "iphone": {
+        "inTransitionConfig": {
+            "transitionDirection": "fromLeft",
+            "transitionDuration": 0.3,
+            "transitionEffect": "transitionPush"
+        },
+        "needAppMenu": false,
+        "outTransitionConfig": {
+            "transitionDirection": "none",
+            "transitionDuration": 0.3,
+            "transitionEffect": "transitionPush"
+        },
+        "psp": {
+            "configureStatusBarStyle": true,
+            "inputAccessoryViewType": 4,
+            "statusBarStyle": "STATUS_BAR_STYLE_DEFAULT",
+            "titleBarConfig": {
+                "buttonClosureLeftSideView": "",
+                "buttonClosureRightSideView": "",
+                "buttonText": "Edit",
+                "leftButtonText": "Back",
+                "leftTitle": "Back",
+                "prevFormTitle": false,
+                "renderTitleText": true,
+                "rightTitle": "Edit",
+                "titleBarLeftSideView": "button",
+                "titleBarRightSideView": "button",
+                "titleClosureLeftSideView": "",
+                "titleClosureRightSideView": "",
+                "visible": false
+            }
+        },
+        "titleBar": false
+    },
+    "isvisible": true,
+    "kuid": "aec5d8dea32d4c429de590a2a4c116d6",
+    "layouttype": 2,
+    "menuposition": 2,
+    "name": "kony.ui.Form2",
+    "needappmenu": true,
+    "paddinginpixel": false,
+    "platform": "android",
+    "prevDevice": "iPhone6",
+    "prevPlatform": "iphone",
+    "retainscrollposition": true,
+    "shellCSS": "and_GalaxyS5",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "spa": {
+        "inTransitionConfig": {
+            "formTransition": "none"
+        },
+        "outTransitionConfig": {
+            "formTransition": "none"
+        }
+    },
+    "spaan": {
+        "needAppMenu": false
+    },
+    "spabb": {
+        "needAppMenu": false
+    },
+    "spaip": {
+        "needAppMenu": false
+    },
+    "spawinphone8": {
+        "needAppMenu": false
+    },
+    "statusbarstyle": "STATUS_BAR_STYLE_DEFAULT",
+    "titleBarSkin": "s096514ac7f345249da9dbe2a93f3b18",
+    "titlebar": false,
+    "type": 3,
+    "wType": "Form",
+    "winphone8": {
+        "inTransitionConfig": {
+            "inTransition": "none",
+            "transitionMode": "none",
+            "transitionSpeed": 0
+        },
+        "needAppMenu": false,
+        "outTransitionConfig": {
+            "outTransition": "none",
+            "transitionMode": "none",
+            "transitionSpeed": 0
+        }
+    }
+}

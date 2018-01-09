@@ -1,0 +1,23 @@
+{
+    "AS_Label_b1ecc27ef10c4d75a45b5cabd809a462": {
+        "id": "AS_Label_b1ecc27ef10c4d75a45b5cabd809a462",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onTouchEnd_g4d0e0a716de45008e439f5ca5251b6b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(this.view.rchTextDesc.isVisible == false)\n  {\n    this.view.rchTextDesc.setVisibility(true);\n    this.onClickDisplay(eventobject);\n  }\nelse\n  {\n     this.onClickDisappear(eventobject);\n     this.view.rchTextDesc.setVisibility(false);\n  }\n",
+            "callbackType": null
+        }]
+    }
+}

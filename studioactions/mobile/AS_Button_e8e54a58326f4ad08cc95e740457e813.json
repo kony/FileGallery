@@ -1,0 +1,17 @@
+{
+    "AS_Button_e8e54a58326f4ad08cc95e740457e813": {
+        "id": "AS_Button_e8e54a58326f4ad08cc95e740457e813",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_fd52881dbd8a4e619806f3747983ad85",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onClickFloatingButton();",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,91 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizNativeContainer",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_needleInAHayStack_": true,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "desktopweb": {
+        "render": false
+    },
+    "id": "nativePDF",
+    "ide_onCreated": "AS_NativeContainer_g05d70ecdd1f4bfbb89c0271a6ef58b2",
+    "info": null,
+    "iphone": {
+        "ide_onLayoutSubviews": "AS_NativeContainer_gd74898a6e584552961c05116382c748"
+    },
+    "isvisible": true,
+    "kiosk": {
+        "render": false
+    },
+    "kuid": "u327102e6e6c46628a839ddb50abe74c",
+    "name": "kony.ui.NativeContainer",
+    "parent": "onlinepdfviewer",
+    "pf": "userwidgetmodel",
+    "spaan": {
+        "render": false
+    },
+    "spaandroidtablet": {
+        "render": false
+    },
+    "spabb": {
+        "render": false
+    },
+    "spaip": {
+        "render": false
+    },
+    "spaipad": {
+        "render": false
+    },
+    "spawindowstablet": {
+        "render": false
+    },
+    "spawinphone8": {
+        "render": false
+    },
+    "wType": "NativeContainer",
+    "watchos": {
+        "render": false
+    },
+    "windows10": {
+        "render": false
+    },
+    "windows8": {
+        "render": false
+    },
+    "winphone10": {
+        "render": false
+    },
+    "winphone8": {
+        "render": false
+    },
+    "zindex": 1
+}

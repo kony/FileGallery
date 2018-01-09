@@ -1,0 +1,52 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__markedForDelete__": true,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100.30%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s25fa48df00440c08f8bace9a176a6e5",
+    "_text_": "",
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s7fd3dd28495469ca141a2c5639e005f",
+    "id": "ButtonRoundFloat",
+    "ide_onClick": "AS_Button_ha2d8e2faffe4b8dadd49949b4f10c1a",
+    "info": null,
+    "isvisible": true,
+    "kuid": "fd84cbaea89b4a24b7163ac4b3a3751c",
+    "masterType": 1,
+    "name": "kony.ui.Button",
+    "parent": "RoundFloatingButton",
+    "pf": "frmLandingPage",
+    "wType": "Button",
+    "zindex": 1
+}

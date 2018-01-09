@@ -1,0 +1,29 @@
+{
+    "AS_Label_efcff953eb864aceaa4063fdbd22ea2c": {
+        "id": "AS_Label_efcff953eb864aceaa4063fdbd22ea2c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "uwa4111ee47c4a412db70eb51f1d6127ad",
+            "type": "userwidgets",
+            "KUID": "a4111ee47c4a412db70eb51f1d6127ad"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f10885640e8f43e3879f178683cb6918",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(this.view.rchtextDoc.isVisible == false)\n  {\n    this.view.rchtextDoc.setVisibility(true);\n    this.onClickDisplay(eventobject);\n  }\nelse\n  {\n     this.onClickDisappear(eventobject);\n     this.view.rchtextDoc.setVisibility(false);\n  }\n  ",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

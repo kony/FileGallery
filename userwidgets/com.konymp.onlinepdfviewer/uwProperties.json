@@ -1,0 +1,65 @@
+{
+    "classname": "onlinepdfviewer",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "a9f223b664304a4883f22fa4d3842d0a",
+                    "paramList": [
+                        {
+                            "name": "url"
+                        }
+                    ],
+                    "propertyKey": "setURL",
+                    "pw": {
+                        "displayName": "setURL",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "f99fd8ad43f941cfa0053ced52dd3848",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "http://forms.kony.com/rs/konysolutions/images/DS-Kony-Marketplace.pdf",
+                    "group": "General",
+                    "kuid": "bac02171a77d4c0c80180a54bf73189e",
+                    "originalPropertyKey": "url",
+                    "propertyIndex": 1,
+                    "propertyKey": "url",
+                    "pw": {
+                        "displayName": "URL",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "u164336965674d568684de10848cf6eb",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konymp",
+    "version": "1.0.0"
+}

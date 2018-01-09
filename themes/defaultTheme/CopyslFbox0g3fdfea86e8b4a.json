@@ -1,0 +1,12 @@
+{
+  "background_color": "00000060",
+  "bg_type": "one",
+  "border_color": "000000ff",
+  "border_radius": 100,
+  "border_style": "custom",
+  "border_type": 0,
+  "border_width": 1,
+  "isDefaultSkin": false,
+  "kuid": "s3c81545860d4d39ad5798371ab9dd5f",
+  "wType": "FlexContainer"
+}

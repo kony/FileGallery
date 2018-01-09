@@ -1,0 +1,18 @@
+{
+    "AS_AppEvents_de757c55a11441119168673966544f8d": {
+        "id": "AS_AppEvents_de757c55a11441119168673966544f8d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__jfd297c9e9b141ec9848bbfcb93b23a0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": " if(kony.store.getItem(\"oneTimeInitFlag\") === undefined || kony.store.getItem(\"oneTimeInitFlag\") === null || kony.store.getItem(\"oneTimeInitFlag\") === \"false\" )\n{\n    return \"frmSplash\";        \n} \nelse\n{\n  \treturn \"frmLandingPage\";\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

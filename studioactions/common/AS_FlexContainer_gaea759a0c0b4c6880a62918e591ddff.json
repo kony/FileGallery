@@ -1,0 +1,18 @@
+{
+    "AS_FlexContainer_gaea759a0c0b4c6880a62918e591ddff": {
+        "id": "AS_FlexContainer_gaea759a0c0b4c6880a62918e591ddff",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ab471ead721f4646a204b227cb03eedc",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(this._hamburgerDirection == \"Left\"){   \t\nthis.view.flxMainSlidingMenu.isVisible = true;\nthis.view.flxMainSlidingMenu.left = \"-20%\";\nthis.view.flxHamParent.left = \"67.5%\";\nthis.view.imgHamIcon.setVisibility(false);\nthis.view.flxCover.isVisible = true;\nthis.view.forceLayout();\n}\nelse{\n  this.view.flxMainSlidingMenu.isVisible = true;\nthis.view.flxMainSlidingMenu.left = \"0%\";\nthis.view.flxHamParent.left = \"20%\";\nthis.view.imgHamIcon.setVisibility(false);\nthis.view.flxCover.isVisible = true;\nthis.view.forceLayout();\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_f16cec7cd51640c4b5d8c882caf5f4b0": {
+        "id": "AS_FlexContainer_f16cec7cd51640c4b5d8c882caf5f4b0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAudioDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "fc87b704b9f1486ea042cd748f6d0875"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__g4d154a0bfcb4710907b8dba7aa1339d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "seekBackward(this.view.sliderAudio.selectedValue);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

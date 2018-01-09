@@ -1,0 +1,67 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "31dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s0438526aa484b2e9bb6b422c63eaf6b",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "13dp"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "Pause",
+    "ide_onTouchEnd": "AS_Label_c4ebf2181d634b7ebeffc8aff412230d",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isvisible": false,
+    "kuid": "e18eaa008596421db6ed2a2de176d6be",
+    "masterType": 1,
+    "name": "kony.ui.Label",
+    "parent": "FlexContainer2",
+    "pf": "frmAudioDetails",
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 1
+}

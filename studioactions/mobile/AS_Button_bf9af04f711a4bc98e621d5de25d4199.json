@@ -1,0 +1,17 @@
+{
+    "AS_Button_bf9af04f711a4bc98e621d5de25d4199": {
+        "id": "AS_Button_bf9af04f711a4bc98e621d5de25d4199",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_bed385c85fff4b038264b4c24fca2c14",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onInterstitialButtonClick();\n\n\n",
+            "callbackType": null
+        }]
+    }
+}

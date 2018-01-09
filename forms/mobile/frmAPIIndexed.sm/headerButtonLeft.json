@@ -1,0 +1,82 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        27,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s6c81f0bd15c439395f974ff8a254fc7",
+    "_text_": "Back",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "59dp"
+    },
+    "android": {
+        "displayText": false,
+        "render": true
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "displaytext": false,
+    "focusskin": "s0696c3010af4a22814c5ede15ab175c",
+    "id": "headerButtonLeft",
+    "ide_onClick": "AS_Button_de593f1371a9457f883161c1eb3d693e",
+    "info": null,
+    "iphone": {
+        "padding": [
+            27,
+            0,
+            0,
+            0
+        ],
+        "paddingInPixel": true,
+        "render": true
+    },
+    "isvisible": true,
+    "kuid": "eb1413a5470f4ab6b896dae9eede8ae8",
+    "masterType": 1,
+    "name": "kony.ui.Button",
+    "paddingLocked": false,
+    "paddinginpixel": false,
+    "parent": "headerContainer07",
+    "pf": "frmAPIIndexed",
+    "spaan": {
+        "render": true
+    },
+    "spabb": {
+        "render": true
+    },
+    "spaip": {
+        "render": true
+    },
+    "spawinphone8": {
+        "render": true
+    },
+    "wType": "Button",
+    "winphone8": {
+        "render": true
+    },
+    "zindex": 3
+}

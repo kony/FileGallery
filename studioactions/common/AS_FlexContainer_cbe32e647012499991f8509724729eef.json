@@ -1,0 +1,26 @@
+{
+    "AS_FlexContainer_cbe32e647012499991f8509724729eef": {
+        "id": "AS_FlexContainer_cbe32e647012499991f8509724729eef",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "userwidgets",
+            "KUID": "ua12328c7bc14db4a0c0478e021ec228"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___g3076c1d79ff4a27ba4df05b44f1a8e6",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "openUptoHalf",
+            "display": "openUptoHalf",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

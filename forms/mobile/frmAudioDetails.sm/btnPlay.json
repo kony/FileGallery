@@ -1,0 +1,55 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "25dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s0377f7e9aa2451f83cea498055799f8",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "s0377f7e9aa2451f83cea498055799f8",
+    "id": "btnPlay",
+    "ide_onClick": "AS_Button_bd02fa831310450c8e0d45b6205186aa",
+    "info": null,
+    "isvisible": true,
+    "kuid": "b4ca7999f41e40bcbd5eb6ba6552f8a0",
+    "name": "kony.ui.Button",
+    "parent": "FlexContainer2",
+    "pf": "frmAudioDetails",
+    "wType": "Button",
+    "zindex": 1
+}

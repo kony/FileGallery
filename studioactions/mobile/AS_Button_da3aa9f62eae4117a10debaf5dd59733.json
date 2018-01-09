@@ -1,0 +1,24 @@
+{
+    "AS_Button_da3aa9f62eae4117a10debaf5dd59733": {
+        "id": "AS_Button_da3aa9f62eae4117a10debaf5dd59733",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAudioDetails",
+            "type": "forms",
+            "platform": null,
+            "KUID": "fc87b704b9f1486ea042cd748f6d0875"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__be61c78193b1414b80a1d311a1b13929",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "stopAudio();\nvar navigat = new kony.mvc.Navigation(\"frmLandingPage\");\nnavigat.navigate();\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

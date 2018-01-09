@@ -1,0 +1,30 @@
+{
+    "AS_Label_c4ebf2181d634b7ebeffc8aff412230d": {
+        "id": "AS_Label_c4ebf2181d634b7ebeffc8aff412230d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmAudioDetails",
+            "type": "forms",
+            "platform": null,
+            "KUID": "fc87b704b9f1486ea042cd748f6d0875"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__jeb27bc9eed541f6b51fb88f61bcfa87",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.btnPlay.setVisibility(true);\nthis.view.Pause.setVisibility(false);\npauseAudio();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

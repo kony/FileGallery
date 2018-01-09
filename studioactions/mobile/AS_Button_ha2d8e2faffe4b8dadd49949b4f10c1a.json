@@ -1,0 +1,24 @@
+{
+    "AS_Button_ha2d8e2faffe4b8dadd49949b4f10c1a": {
+        "id": "AS_Button_ha2d8e2faffe4b8dadd49949b4f10c1a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLandingPage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "aec5d8dea32d4c429de590a2a4c116d6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__dac7cddd074c4daba34222235b38571c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onClickFloatingButton();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

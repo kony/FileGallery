@@ -1,0 +1,23 @@
+{
+    "AS_Video_f39ea21f76934082b1306f66a2d27f8d": {
+        "id": "AS_Video_f39ea21f76934082b1306f66a2d27f8d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwu21dfa1888cb4694990cadbd61c5654f",
+            "type": "userwidgets",
+            "KUID": "u21dfa1888cb4694990cadbd61c5654f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f8650ead0d03494b829c99d6703064b3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "\nthis.view.videoDemo.play();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

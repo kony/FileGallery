@@ -1,0 +1,30 @@
+{
+    "AS_Form_bbdc2f3f51e24f5c9aaf50405818214d": {
+        "id": "AS_Form_bbdc2f3f51e24f5c9aaf50405818214d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmPDFDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e533fa197dbc4efd9e46c962a5126c79"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__g3e74a2ba14b4ef79c49464ba2f74ef2",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.KnowledgeFramework1.onTouchMoves(eventobject,x,y);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

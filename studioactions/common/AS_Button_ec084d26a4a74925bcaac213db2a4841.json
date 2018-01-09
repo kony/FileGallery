@@ -1,0 +1,18 @@
+{
+    "AS_Button_ec084d26a4a74925bcaac213db2a4841": {
+        "id": "AS_Button_ec084d26a4a74925bcaac213db2a4841",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e3bbe3194120453387bbca177e626614",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(this.view.sgmtAPI.isVisible === true)\n  {\n    this.onClickDrag();\n  }\nelse\n  {\n    this.view.flxFullScreen.setVisibility(false);\n    this.view.sgmtAPI.setVisibility(true);\n  }\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

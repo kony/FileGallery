@@ -1,0 +1,87 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizSlider",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "45dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_max_": 100,
+    "_min_": 0,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_step_": 1,
+    "_thickness_": 3,
+    "_top_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "284dp"
+    },
+    "android": {
+        "thumbImage": "slider_android.png"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "desktopweb": {
+        "psp": {
+            "orientation": "horizontal",
+            "viewType": "default"
+        }
+    },
+    "id": "sliderAudio",
+    "ide_onSelection": "AS_Slider_d55aedbb37394051824313267aa0fe1a",
+    "ide_onTouchEnd": "AS_Slider_d3a444c9b4584e2c9c8e5ef913823e92",
+    "imgwt": 99,
+    "info": null,
+    "ipad": {
+        "psp": {
+            "enableThumbTintColor": true,
+            "thumbTintColor": "ffffff00"
+        },
+        "thumbImage": "slider_ios7.png"
+    },
+    "iphone": {
+        "psp": {
+            "enableThumbTintColor": true,
+            "thumbTintColor": "ffffff00"
+        },
+        "thumbImage": "slider_ios7.png"
+    },
+    "isvisible": true,
+    "kuid": "ga110f640a3d432e9613020d4860fd51",
+    "leftskin": "sdfeeb1f94f5479ea5d7b8a141841a90",
+    "minlabel": "",
+    "name": "kony.ui.Slider",
+    "noofsteps": 100,
+    "osPlatform": "iphone",
+    "osVersion": "iOS7",
+    "parent": "flxData",
+    "pf": "frmAudioDetails",
+    "rightskin": "sf33dae8d244484bb82d1322f7759905",
+    "selectedvalue": 1,
+    "stepwidth": 8.52,
+    "tabrcandroid": {
+        "thumbImage": "slider_android.png"
+    },
+    "thumbimage": "slider.png",
+    "wType": "Slider",
+    "widgetalignment": 5,
+    "zindex": 2
+}

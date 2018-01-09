@@ -1,0 +1,17 @@
+{
+    "AS_Button_de593f1371a9457f883161c1eb3d693e": {
+        "id": "AS_Button_de593f1371a9457f883161c1eb3d693e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_hf29d184386e40c4b85d25ecf530b1ea",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.listMenuClick();",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "AS_Button_e7d031d4a3084223bc41785340668cfc": {
+        "id": "AS_Button_e7d031d4a3084223bc41785340668cfc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frm2",
+            "type": "forms",
+            "platform": "",
+            "KUID": "faa4b5e317644f9698f000075434fab2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_g0183e335902428cac312e5366157f91",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "pauseAudio();",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "AS_Form_e89a15cdcb9e45ef85ec241670d87772": {
+        "id": "AS_Form_e89a15cdcb9e45ef85ec241670d87772",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "Form1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b66960668193498493888871938e21f2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__fe47b703d09c4f918d5619e047c85f7e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.KnowledgeFramework.onTouchMoves(eventobject,x,y);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

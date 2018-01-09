@@ -1,0 +1,30 @@
+{
+    "AS_Label_d2b9a6bf49724b62a3cda73e06f72ca4": {
+        "id": "AS_Label_d2b9a6bf49724b62a3cda73e06f72ca4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmLandingPage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "aec5d8dea32d4c429de590a2a4c116d6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f7ad757ce1454b07a10289ba95a78800",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var controllerScope = this;\ncontrollerScope.view.flxLineSubHeader.animate(\n          kony.ui.createAnimation({100:{left:\"33.33%\",\"stepConfig\":{}}}),\n          {delay:0,fillMode:kony.anim.FILL_MODE_FORWARDS,duration:.2},\n          {animationEnd: function() {        \n          } \n          });",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

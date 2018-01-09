@@ -1,0 +1,24 @@
+{
+    "AS_Button_h329eb0c40de49eda98976facc939d2b": {
+        "id": "AS_Button_h329eb0c40de49eda98976facc939d2b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPDFDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e533fa197dbc4efd9e46c962a5126c79"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a532482b625b4eddaf9f0c01f27198a2",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onClickBack();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

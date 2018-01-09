@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_cd6d628f111e429f99ec585ea3665a37": {
+        "id": "AS_FlexContainer_cd6d628f111e429f99ec585ea3665a37",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "type": "userwidgets",
+            "KUID": "u4aefd4ccd4f43c288e73b769abc427f",
+            "name": "uwu4aefd4ccd4f43c288e73b769abc427f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d31c002730ae40c3ad21bc2f31530da5",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var newdata = this.modifyDataFromDataGrid(this._suboptions, this._options);\nthis.addMenuItems(newdata);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

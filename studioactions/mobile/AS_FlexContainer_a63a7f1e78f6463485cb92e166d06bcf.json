@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_a63a7f1e78f6463485cb92e166d06bcf": {
+        "id": "AS_FlexContainer_a63a7f1e78f6463485cb92e166d06bcf",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_bd76cb3088ee43e7af0e2e42550c950e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.flxCoverOnClick();",
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "AS_Button_f7c3194f989041d4b539620c65ba79cd": {
+        "id": "AS_Button_f7c3194f989041d4b539620c65ba79cd",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmAudioDetails",
+            "type": "forms",
+            "platform": "",
+            "KUID": "fc87b704b9f1486ea042cd748f6d0875"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__be62a9231e5e44dc8873bc72ae634628",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "seekBackward(Number(this.view.sliderAudio.selectedValue));",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

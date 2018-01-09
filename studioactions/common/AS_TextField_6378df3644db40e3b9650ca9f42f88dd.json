@@ -1,0 +1,36 @@
+{
+    "AS_TextField_6378df3644db40e3b9650ca9f42f88dd": {
+        "id": "AS_TextField_6378df3644db40e3b9650ca9f42f88dd",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "SET_FORM_WIDGET_PROPERTY____f5473b62d117446cb1f63296e0670375",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "propertyName": "skin",
+            "propertyValue": "CopyskEmailISNormal",
+            "itemKUID": "8a32a4f5d1d84c08bf3536c279aad1d4",
+            "widgetKUID": "3b9ef41eca244d08afcd5af9405b36b8",
+            "skinKUID": "s794cb2ce98b433ba610fa2a21d6f9ec",
+            "isSkinProperty": true,
+            "wType": "FlexContainer",
+            "currentTheme": "defaultTheme",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "ADD_SNIPPET__i7e20e292b5344adab688d4a0b34d6fe",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//Reset the skin to Normal since the textbox is empty\nif(/^\\s*$/.test(this.view.frmEmail.txtEmail.text))\n   {\n\t  self.view.frmEmail[\"skin\"] = \"skEmailISNormal\"\n\t  self.view.frmEmail.txtEmail[\"skin\"] =  \"skUNIRN\"\n      return\n     \n   }\n//If it is not empty then check for email validation\n   else\n   {\n\tif (/^\\w+([\\.-]?\\ w+)*@\\w+([\\.-]?\\ w+)*(\\.\\w{2,3})+$/.test(this.view.frmEmail.txtEmail.text))\n\t\t{\n\t\t  self.view.frmEmail[\"skin\"] = \"skEmailISNormal\"\n\t\t  self.view.frmEmail.txtEmail[\"skin\"] =  \"skUNIRN\"\n\t\t}\n\telse\n\t  {\n\t\t  self.view.frmEmail[\"skin\"] = \"skEmailISRed\";\n\t\t  self.view.frmEmail.txtEmail[\"skin\"] = \"skUNIRRed\";\n\n\t}     \n   }\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

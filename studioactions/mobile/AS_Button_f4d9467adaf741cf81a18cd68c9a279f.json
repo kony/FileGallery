@@ -1,0 +1,17 @@
+{
+    "AS_Button_f4d9467adaf741cf81a18cd68c9a279f": {
+        "id": "AS_Button_f4d9467adaf741cf81a18cd68c9a279f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_i641673b8e6244e79bb4485c505cb10e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(this.view.sgmtAPI.isVisible === true)\n  {\n    this.onClickDrag();\n  }\nelse\n  {\n    this.view.flxFullScreen.setVisibility(false);\n    this.view.sgmtAPI.setVisibility(true);\n  }\n",
+            "callbackType": null
+        }]
+    }
+}

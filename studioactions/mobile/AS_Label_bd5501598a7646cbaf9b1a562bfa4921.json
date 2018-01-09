@@ -1,0 +1,23 @@
+{
+    "AS_Label_bd5501598a7646cbaf9b1a562bfa4921": {
+        "id": "AS_Label_bd5501598a7646cbaf9b1a562bfa4921",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onTouchEnd_fb9e603a0c7d4a3eb6a455215e81456d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onClickDrag();",
+            "callbackType": null
+        }]
+    }
+}
