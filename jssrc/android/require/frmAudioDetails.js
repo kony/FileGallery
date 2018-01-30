@@ -77,6 +77,22 @@ define("frmAudioDetails", function() {
                 "paddingInPixel": false
             }, {});
             headerContainer18.add(headerTitleLabel, headerIconLeft, headerButtonLeft);
+            var flxMenuLine = new kony.ui.FlexContainer({
+                "autogrowMode": kony.flex.AUTOGROW_NONE,
+                "bottom": "0dp",
+                "clipBounds": true,
+                "height": "1dp",
+                "id": "flxMenuLine",
+                "isVisible": true,
+                "layoutType": kony.flex.FREE_FORM,
+                "left": "0dp",
+                "skin": "CopyslFbox0ja0119efebbf44",
+                "top": "0%",
+                "width": "100%",
+                "zIndex": 6
+            }, {}, {});
+            flxMenuLine.setDefaultUnit(kony.flex.DP);
+            flxMenuLine.add();
             var flxData = new kony.ui.FlexContainer({
                 "autogrowMode": kony.flex.AUTOGROW_NONE,
                 "clipBounds": true,
@@ -86,36 +102,16 @@ define("frmAudioDetails", function() {
                 "layoutType": kony.flex.FREE_FORM,
                 "left": "0dp",
                 "skin": "sknFullFlex",
-                "top": "9%",
+                "top": "0%",
                 "width": "100%",
                 "zIndex": 1
             }, {}, {});
             flxData.setDefaultUnit(kony.flex.DP);
-            var FileAudio = new kony.ui.Label({
-                "centerX": "50%",
-                "id": "FileAudio",
-                "isVisible": true,
-                "skin": "CopyslFontAwesomeIcon0d515b7dde05f47",
-                "text": "",
-                "textStyle": {
-                    "letterSpacing": 0,
-                    "strikeThrough": false
-                },
-                "top": "105dp",
-                "width": kony.flex.USE_PREFFERED_SIZE,
-                "zIndex": 1
-            }, {
-                "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
-                "padding": [0, 0, 0, 0],
-                "paddingInPixel": false
-            }, {
-                "textCopyable": false
-            });
             var sliderAudio = new kony.ui.Slider({
+                "centerX": "50%",
                 "height": "45dp",
                 "id": "sliderAudio",
                 "isVisible": true,
-                "left": "37dp",
                 "leftSkin": "slSliderLeftBlue",
                 "max": 100,
                 "min": 0,
@@ -164,18 +160,34 @@ define("frmAudioDetails", function() {
                 "paddingInPixel": false
             }, {});
             RoundFloatingButton.add(ButtonRoundFloat);
-            flxData.add(FileAudio, sliderAudio, RoundFloatingButton);
+            var imgAudio = new kony.ui.Image2({
+                "centerX": "50%",
+                "height": "130dp",
+                "id": "imgAudio",
+                "isVisible": true,
+                "skin": "slImage",
+                "src": "mp3.png",
+                "top": "55dp",
+                "width": "150dp",
+                "zIndex": 6
+            }, {
+                "imageScaleMode": constants.IMAGE_SCALE_MODE_MAINTAIN_ASPECT_RATIO,
+                "padding": [0, 0, 0, 0],
+                "paddingInPixel": false
+            }, {});
+            flxData.add(sliderAudio, RoundFloatingButton, imgAudio);
             var footerPlayRewindForwardStop = new kony.ui.FlexContainer({
                 "autogrowMode": kony.flex.AUTOGROW_NONE,
                 "bottom": 0,
                 "clipBounds": true,
-                "height": "10%",
+                "height": "9%",
                 "id": "footerPlayRewindForwardStop",
                 "isVisible": true,
                 "layoutType": kony.flex.FREE_FORM,
                 "left": "0dp",
                 "masterType": constants.MASTER_TYPE_USERWIDGET,
                 "skin": "CopyslFbox0e87dd617ff5a41",
+                "top": "0%",
                 "width": "100%",
                 "zIndex": 1
             }, {}, {});
@@ -340,7 +352,7 @@ define("frmAudioDetails", function() {
             }, {});
             FlexContainer3.add(btnForward);
             footerPlayRewindForwardStop.add(FlexContainer2, FlexContainer4, FlexContainer1, FlexContainer3);
-            this.add(headerContainer18, flxData, footerPlayRewindForwardStop);
+            this.add(headerContainer18, flxMenuLine, flxData, footerPlayRewindForwardStop);
         };
         return [{
             "addWidgets": addWidgetsfrmAudioDetails,
@@ -348,12 +360,12 @@ define("frmAudioDetails", function() {
             "enableScrolling": false,
             "enabledForIdleTimeout": false,
             "id": "frmAudioDetails",
-            "layoutType": kony.flex.FREE_FORM,
+            "layoutType": kony.flex.FLOW_VERTICAL,
             "needAppMenu": false,
-            "skin": "slForm"
+            "skin": "CopyslForm0dbbc9313005749"
         }, {
             "displayOrientation": constants.FORM_DISPLAY_ORIENTATION_PORTRAIT,
-            "layoutType": kony.flex.FREE_FORM,
+            "layoutType": kony.flex.FLOW_VERTICAL,
             "padding": [0, 0, 0, 0],
             "paddingInPixel": false
         }, {

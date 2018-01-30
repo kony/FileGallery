@@ -1,5 +1,5 @@
 // -- SDK File : KonySyncLib.js 
-//  --Generated On Thu Oct 12 13:52:20 IST 2017******************* 
+//  --Generated On Thu Jan 11 15:37:38 IST 2018******************* 
 //  **************** Start jsonWriter.js*******************
 if (typeof(kony.sync) === "undefined") {
     kony.sync = {};
@@ -790,7 +790,7 @@ kony.sync.createDownloadTask = function(dbname, tableName, columnName, primaryKe
         function claimsRefreshSuccessCallBack() {
             sync.log.trace("Entering kony.sync.createDownloadTask->claimsRefreshSuccessCallBack ");
             var currentClaimToken = kony.sdk.getCurrentInstance().currentClaimToken;
-            if (kony.sync.currentSyncConfigParams[kony.sync.authTokenKey] != currentClaimToken) {
+            if (!(kony.sync.isNullOrUndefined(kony.sync.currentSyncConfigParams)) && kony.sync.currentSyncConfigParams[kony.sync.authTokenKey] != currentClaimToken) {
                 kony.sync.currentSyncConfigParams[kony.sync.authTokenKey] = currentClaimToken;
             }
             downloadConfig["X-Kony-Authorization"] = currentClaimToken;
@@ -5993,13 +5993,20 @@ kony.sync.addToRollBack = function(tx, tablename, values, changetype, wcs, error
 };
 kony.sync.getOriginalRow = function(tx, tablename, wcs, errorcallback) {
     sync.log.trace("Entering kony.sync.getOriginalRow ");
-    var query = kony.sync.qb_createQuery();
-    kony.sync.qb_select(query, null);
-    kony.sync.qb_from(query, tablename);
-    kony.sync.qb_where(query, wcs);
-    var query_compile = kony.sync.qb_compile(query);
-    var sql = query_compile[0];
-    var params = query_compile[1];
+    var sql = "";
+    var params = "";
+    if (typeof(wcs) == "string" || typeof(wcs) == "String") {
+        sql = "select * from " + tablename + " " + wcs + " ;";
+        params = null;
+    } else {
+        var query = kony.sync.qb_createQuery();
+        kony.sync.qb_select(query, null);
+        kony.sync.qb_from(query, tablename);
+        kony.sync.qb_where(query, wcs);
+        var query_compile = kony.sync.qb_compile(query);
+        sql = query_compile[0];
+        params = query_compile[1];
+    }
     var resultset = kony.sync.executeSql(tx, sql, params, errorcallback);
     if (!resultset) {
         return false;
@@ -15134,20 +15141,23 @@ kony.sync.invokeServiceAsync = function(url, params, callback, context) {
             sync.log.trace("Entering localRequestCallback");
             var readyState = Number(httprequest.readyState.toString());
             var status = Number(httprequest.status.toString());
+            var localresponse = {};
             if (readyState == 4) {
                 kony.sdk.setLogLevelFromServerResponse(httprequest.getAllResponseHeaders()); //
                 if (status == 200) {
                     if (kony.sync.isNullOrUndefined(httprequest.response)) {
-                        httprequest.response = {
+                        localresponse = {
                             'opstatus': 1012
                         };
+                    } else {
+                        localresponse = httprequest.response;
                     }
                 } else {
-                    httprequest.response = {
+                    localresponse = {
                         'opstatus': 1012
                     };
                 }
-                callback(400, httprequest.response, context);
+                callback(400, localresponse, context);
             }
         }
     } //end of invokeServiceAsyncHelper
@@ -15155,7 +15165,7 @@ kony.sync.invokeServiceAsync = function(url, params, callback, context) {
 kony.sync.commonServiceParams = function(params) {
     sync.log.trace("Entering kony.sync.commonServiceParams ");
     var httpheaders = {};
-    if (!(kony.sync.isNullOrUndefined(kony.sync.currentSyncConfigParams.userid)) && !(kony.sync.isNullOrUndefined(kony.sync.currentSyncConfigParams.password))) {
+    if (!(kony.sync.isNullOrUndefined(kony.sync.currentSyncConfigParams)) && !(kony.sync.isNullOrUndefined(kony.sync.currentSyncConfigParams.userid)) && !(kony.sync.isNullOrUndefined(kony.sync.currentSyncConfigParams.password))) {
         params.userid = kony.sync.currentSyncConfigParams.userid;
         params.password = kony.sync.genHash(kony.sync.currentSyncConfigParams[kony.sync.passwordHashingAlgo], kony.sync.currentSyncConfigParams.password);
     }

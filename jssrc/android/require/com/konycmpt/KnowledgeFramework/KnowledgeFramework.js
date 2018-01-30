@@ -221,7 +221,7 @@ define(function() {
             "id": "flxFullScreen",
             "isVisible": true,
             "layoutType": kony.flex.FLOW_VERTICAL,
-            "left": "0%",
+            "left": "100%",
             "pagingEnabled": false,
             "scrollDirection": kony.flex.SCROLL_VERTICAL,
             "skin": "CopysknFullKnowledge",
@@ -414,6 +414,7 @@ define(function() {
         }, {});
         var btnMail = new kony.ui.Button({
             "centerY": "50%",
+            "focusSkin": "CopyslButtonGlossBlue0b704491faccc4b",
             "height": "50dp",
             "id": "btnMail",
             "isVisible": true,
@@ -588,7 +589,6 @@ define(function() {
             "isVisible": false,
             "layoutType": kony.flex.FREE_FORM,
             "left": "0%",
-            "onClick": controller.AS_FlexContainer_c4e3b910ebce44b58770be3ed6ba6531,
             "skin": "CopyslFbox5",
             "top": "0%",
             "width": "100%",

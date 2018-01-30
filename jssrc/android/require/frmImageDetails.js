@@ -77,6 +77,22 @@ define("frmImageDetails", function() {
                 "paddingInPixel": false
             }, {});
             headerContainer18.add(headerTitleLabel, headerIconLeft, headerButtonLeft);
+            var flxMenuLine = new kony.ui.FlexContainer({
+                "autogrowMode": kony.flex.AUTOGROW_NONE,
+                "bottom": "0dp",
+                "clipBounds": true,
+                "height": "1dp",
+                "id": "flxMenuLine",
+                "isVisible": true,
+                "layoutType": kony.flex.FREE_FORM,
+                "left": "0dp",
+                "skin": "CopyslFbox0ja0119efebbf44",
+                "top": "0%",
+                "width": "100%",
+                "zIndex": 6
+            }, {}, {});
+            flxMenuLine.setDefaultUnit(kony.flex.DP);
+            flxMenuLine.add();
             var flxData = new kony.ui.FlexContainer({
                 "autogrowMode": kony.flex.AUTOGROW_NONE,
                 "clipBounds": true,
@@ -86,14 +102,14 @@ define("frmImageDetails", function() {
                 "layoutType": kony.flex.FREE_FORM,
                 "left": "0dp",
                 "skin": "sknFullFlex",
-                "top": "10%",
+                "top": "0%",
                 "width": "100%",
                 "zIndex": 1
             }, {}, {});
             flxData.setDefaultUnit(kony.flex.DP);
             var imageFile = new kony.ui.Image2({
                 "centerX": "50%",
-                "height": "305dp",
+                "height": "100%",
                 "id": "imageFile",
                 "isVisible": true,
                 "left": "0dp",
@@ -174,7 +190,7 @@ define("frmImageDetails", function() {
             }, {});
             RoundFloatingButton.add(ButtonRoundFloat);
             flxData.add(imageFile, footerEdit, RoundFloatingButton);
-            this.add(headerContainer18, flxData);
+            this.add(headerContainer18, flxMenuLine, flxData);
         };
         return [{
             "addWidgets": addWidgetsfrmImageDetails,
@@ -182,12 +198,12 @@ define("frmImageDetails", function() {
             "enableScrolling": false,
             "enabledForIdleTimeout": false,
             "id": "frmImageDetails",
-            "layoutType": kony.flex.FREE_FORM,
+            "layoutType": kony.flex.FLOW_VERTICAL,
             "needAppMenu": false,
-            "skin": "slForm"
+            "skin": "CopyslForm0i5f3a6546a2f42"
         }, {
             "displayOrientation": constants.FORM_DISPLAY_ORIENTATION_PORTRAIT,
-            "layoutType": kony.flex.FREE_FORM,
+            "layoutType": kony.flex.FLOW_VERTICAL,
             "padding": [0, 0, 0, 0],
             "paddingInPixel": false
         }, {

@@ -41,7 +41,10 @@ public class N_binarydata extends JSLibrary {
  
 	public static final String getOnlineBinaryData = "getOnlineBinaryData";
  
-	String[] methods = { deleteBinaryObject, startDownload, pauseDownload, resumeDownload, createDownloadTask, clearBinaryDataManagerState, getBinaryDataFilePath, getOnlineBinaryData };
+ 
+	public static final String uploadBinaryData = "uploadBinaryData";
+ 
+	String[] methods = { deleteBinaryObject, startDownload, pauseDownload, resumeDownload, createDownloadTask, clearBinaryDataManagerState, getBinaryDataFilePath, getOnlineBinaryData, uploadBinaryData };
 
 
  Library libs[] = null;
@@ -246,6 +249,31 @@ public class N_binarydata extends JSLibrary {
  ret = this.getOnlineBinaryData( fileParams7, streaming7, downloadConfig7, fileDownloadStartedCallback7, chunkDownloadCompletedCallback7, fileDownloadCompletedCallback7, downloadFailureCallback7 );
  
  			break;
+ 		case 8:
+ if (paramLen != 5){ return new Object[] {new Double(100),"Invalid Params"}; }
+ com.konylabs.vm.LuaTable uploadParams8 = null;
+ if(params[0] != null && params[0] != LuaNil.nil) {
+ uploadParams8 = (com.konylabs.vm.LuaTable)params[0];
+ }
+ com.konylabs.vm.Function uploadStartedCallback8 = null;
+ if(params[1] != null && params[1] != LuaNil.nil) {
+ uploadStartedCallback8 = (com.konylabs.vm.Function)params[1];
+ }
+ com.konylabs.vm.Function uploadChunkCompletedCallback8 = null;
+ if(params[2] != null && params[2] != LuaNil.nil) {
+ uploadChunkCompletedCallback8 = (com.konylabs.vm.Function)params[2];
+ }
+ com.konylabs.vm.Function uploadCompletedCallback8 = null;
+ if(params[3] != null && params[3] != LuaNil.nil) {
+ uploadCompletedCallback8 = (com.konylabs.vm.Function)params[3];
+ }
+ com.konylabs.vm.Function uploadErrorCallback8 = null;
+ if(params[4] != null && params[4] != LuaNil.nil) {
+ uploadErrorCallback8 = (com.konylabs.vm.Function)params[4];
+ }
+ ret = this.uploadBinaryData( uploadParams8, uploadStartedCallback8, uploadChunkCompletedCallback8, uploadCompletedCallback8, uploadErrorCallback8 );
+ 
+ 			break;
  		default:
 			break;
 		}
@@ -376,6 +404,21 @@ public class N_binarydata extends JSLibrary {
  , (com.konylabs.vm.Function)inputKey4
  , (com.konylabs.vm.Function)inputKey5
  , (com.konylabs.vm.Function)inputKey6
+ );
+ 
+ ret = new Object[]{LuaNil.nil, new Double(0)};
+ 		return ret;
+	}
+ 
+ 
+ 	public final Object[] uploadBinaryData( com.konylabs.vm.LuaTable inputKey0, com.konylabs.vm.Function inputKey1, com.konylabs.vm.Function inputKey2, com.konylabs.vm.Function inputKey3, com.konylabs.vm.Function inputKey4 ){
+ 
+		Object[] ret = null;
+ com.kony.binarydatamanager.ffi.BinaryDataFFI.uploadBinaryData( (java.util.Hashtable)TableLib.convertToHash(inputKey0)
+ , (com.konylabs.vm.Function)inputKey1
+ , (com.konylabs.vm.Function)inputKey2
+ , (com.konylabs.vm.Function)inputKey3
+ , (com.konylabs.vm.Function)inputKey4
  );
  
  ret = new Object[]{LuaNil.nil, new Double(0)};

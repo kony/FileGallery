@@ -269,6 +269,22 @@ define("frmAPIIndexed", function() {
             }, {});
             flxMenu.add(CopyimgMenu0g00fbe4df8e24a);
             flxHeadingBar.add(flxHeading, flexCloseClick, flexClickBack, flxMenu);
+            var flxMenuLine = new kony.ui.FlexContainer({
+                "autogrowMode": kony.flex.AUTOGROW_NONE,
+                "bottom": "0dp",
+                "clipBounds": true,
+                "height": "1dp",
+                "id": "flxMenuLine",
+                "isVisible": true,
+                "layoutType": kony.flex.FREE_FORM,
+                "left": "0dp",
+                "skin": "CopyslFbox0ja0119efebbf44",
+                "top": "0%",
+                "width": "100%",
+                "zIndex": 6
+            }, {}, {});
+            flxMenuLine.setDefaultUnit(kony.flex.DP);
+            flxMenuLine.add();
             var flxSegData = new kony.ui.FlexContainer({
                 "autogrowMode": kony.flex.AUTOGROW_NONE,
                 "clipBounds": true,
@@ -364,13 +380,13 @@ define("frmAPIIndexed", function() {
                 "zIndex": 1
             }, {}, {});
             flexAcc1.setDefaultUnit(kony.flex.DP);
-            var lblrchTextDesc = new kony.ui.Label({
+            var lblAccordian1 = new kony.ui.Label({
                 "centerY": "50.20%",
                 "height": "100%",
-                "id": "lblrchTextDesc",
+                "id": "lblAccordian1",
                 "isVisible": true,
                 "left": "0.00%",
-                "skin": "CopysknLabelKnowledge0feb0803e7bc242",
+                "skin": "sknIndexSelected",
                 "text": "What's it ?",
                 "textStyle": {
                     "letterSpacing": 0,
@@ -393,7 +409,7 @@ define("frmAPIIndexed", function() {
                 "isVisible": true,
                 "left": "90%",
                 "skin": "CopyslImage5",
-                "src": "chevron_active.png",
+                "src": "chevron_down.png",
                 "top": "21dp",
                 "width": "18dp",
                 "zIndex": 1
@@ -402,7 +418,7 @@ define("frmAPIIndexed", function() {
                 "padding": [0, 0, 0, 0],
                 "paddingInPixel": false
             }, {});
-            flexAcc1.add(lblrchTextDesc, btnAccordian1);
+            flexAcc1.add(lblAccordian1, btnAccordian1);
             var flexScrollDesc1 = new kony.ui.FlexScrollContainer({
                 "allowHorizontalBounce": false,
                 "allowVerticalBounce": true,
@@ -456,13 +472,13 @@ define("frmAPIIndexed", function() {
                 "zIndex": 1
             }, {}, {});
             flexAcc2.setDefaultUnit(kony.flex.DP);
-            var lbllblCodeSnippet = new kony.ui.Label({
+            var lblAccordian2 = new kony.ui.Label({
                 "centerY": "50%",
                 "height": "100%",
-                "id": "lbllblCodeSnippet",
+                "id": "lblAccordian2",
                 "isVisible": true,
                 "left": "0%",
-                "skin": "CopysknLabelKnowledge0feb0803e7bc242",
+                "skin": "sknIndexUnselected",
                 "text": "How to use ?",
                 "textStyle": {
                     "letterSpacing": 0,
@@ -485,7 +501,7 @@ define("frmAPIIndexed", function() {
                 "isVisible": true,
                 "left": "90%",
                 "skin": "CopyslImage5",
-                "src": "chevron_active.png",
+                "src": "chevron_normal.png",
                 "top": "21dp",
                 "width": "18dp",
                 "zIndex": 1
@@ -514,7 +530,7 @@ define("frmAPIIndexed", function() {
             }, {
                 "textCopyable": false
             });
-            flexAcc2.add(lbllblCodeSnippet, btnAccordian2, lblStrip1);
+            flexAcc2.add(lblAccordian2, btnAccordian2, lblStrip1);
             var flexScrollDesc2 = new kony.ui.FlexScrollContainer({
                 "allowHorizontalBounce": false,
                 "allowVerticalBounce": true,
@@ -586,13 +602,13 @@ define("frmAPIIndexed", function() {
                 "zIndex": 1
             }, {}, {});
             flexAcc3.setDefaultUnit(kony.flex.DP);
-            var lblrchtextDoc = new kony.ui.Label({
+            var lblAccordian3 = new kony.ui.Label({
                 "centerY": "50%",
                 "height": "100%",
-                "id": "lblrchtextDoc",
+                "id": "lblAccordian3",
                 "isVisible": true,
                 "left": "0%",
-                "skin": "CopysknLabelKnowledge0feb0803e7bc242",
+                "skin": "sknIndexUnselected",
                 "text": "Documentation Link",
                 "textStyle": {
                     "letterSpacing": 0,
@@ -635,7 +651,7 @@ define("frmAPIIndexed", function() {
                 "isVisible": true,
                 "left": "90%",
                 "skin": "CopyslImage5",
-                "src": "chevron_active.png",
+                "src": "chevron_normal.png",
                 "top": "21dp",
                 "width": "18dp",
                 "zIndex": 1
@@ -665,7 +681,7 @@ define("frmAPIIndexed", function() {
             }, {
                 "textCopyable": false
             });
-            flexAcc3.add(lblrchtextDoc, lblStrip3, btnAccordian3, lblStrip4);
+            flexAcc3.add(lblAccordian3, lblStrip3, btnAccordian3, lblStrip4);
             var flexScrollDesc3 = new kony.ui.FlexContainer({
                 "autogrowMode": kony.flex.AUTOGROW_NONE,
                 "clipBounds": true,
@@ -699,7 +715,7 @@ define("frmAPIIndexed", function() {
             flexScrollDesc3.add(rchDesc3);
             flxFullScreen.add(flexAcc1, flexScrollDesc1, flexAcc2, flexScrollDesc2, flexAcc3, flexScrollDesc3);
             flxSegData.add(sgmtAPI, flxFullScreen);
-            flxAPIIndexed.add(flxHeadingBar, flxSegData);
+            flxAPIIndexed.add(flxHeadingBar, flxMenuLine, flxSegData);
             flxFullPage.add(headerContainer07, flxAPIIndexed);
             var flxCover = new kony.ui.FlexContainer({
                 "autogrowMode": kony.flex.AUTOGROW_NONE,

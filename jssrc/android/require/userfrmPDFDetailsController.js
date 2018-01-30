@@ -1,5 +1,6 @@
 define({
     onNavigate: function(filename) {
+        //   kony.application.showLoadingScreen("","",constants.LOADING_SCREEN_POSITION_ONLY_CENTER, true,true,null);
         this.view.headerTitleLabel.text = filename;
         var url;
         if (filename === "Kony Fabric Installer Mac") {
@@ -13,6 +14,7 @@ define({
         }
         this.view.onlinepdfviewer.url = url;
         this.view.forceLayout();
+        //kony.application.dismissLoadingScreen();
     },
     onClickBack: function() {
         this.view.onlinepdfviewer.url = null;

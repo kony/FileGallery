@@ -78,12 +78,12 @@ function skinsInit() {
     CopysknFullFlex = "CopysknFullFlex";
     CopysknFullKnowledge = "CopysknFullKnowledge";
     CopysknFullKnowledge0b67859646c0243 = "CopysknFullKnowledge0b67859646c0243";
+    CopysknIndexSelected0j2e6047b1db141 = "CopysknIndexSelected0j2e6047b1db141";
     CopysknLabelHeading = "CopysknLabelHeading";
     CopysknLabelHeading0b09cb924ada147 = "CopysknLabelHeading0b09cb924ada147";
     CopysknLabelKnowledge = "CopysknLabelKnowledge";
     CopysknLabelKnowledge0ab0df737821b44 = "CopysknLabelKnowledge0ab0df737821b44";
     CopysknLabelKnowledge0f9feaf03022349 = "CopysknLabelKnowledge0f9feaf03022349";
-    CopysknLabelKnowledge0feb0803e7bc242 = "CopysknLabelKnowledge0feb0803e7bc242";
     CopysknLabelKnowledge0gea5b8e8819449 = "CopysknLabelKnowledge0gea5b8e8819449";
     CopysknLabelSplash = "CopysknLabelSplash";
     CopysknLblffb = "CopysknLblffb";
@@ -112,6 +112,7 @@ function skinsInit() {
     CopyslButtonGlossBlue0af14307e3edc44 = "CopyslButtonGlossBlue0af14307e3edc44";
     CopyslButtonGlossBlue0b15a305ebf664b = "CopyslButtonGlossBlue0b15a305ebf664b";
     CopyslButtonGlossBlue0b290248f3ee540 = "CopyslButtonGlossBlue0b290248f3ee540";
+    CopyslButtonGlossBlue0b704491faccc4b = "CopyslButtonGlossBlue0b704491faccc4b";
     CopyslButtonGlossBlue0b8ca785176b847 = "CopyslButtonGlossBlue0b8ca785176b847";
     CopyslButtonGlossBlue0d2ea27c3cbc047 = "CopyslButtonGlossBlue0d2ea27c3cbc047";
     CopyslButtonGlossBlue0ded1ff7d0fad4c = "CopyslButtonGlossBlue0ded1ff7d0fad4c";
@@ -186,10 +187,14 @@ function skinsInit() {
     CopyslForm = "CopyslForm";
     CopyslForm0320e1089465147 = "CopyslForm0320e1089465147";
     CopyslForm0ac196879717c4d = "CopyslForm0ac196879717c4d";
+    CopyslForm0dbbc9313005749 = "CopyslForm0dbbc9313005749";
     CopyslForm0f07cf9d8d95549 = "CopyslForm0f07cf9d8d95549";
     CopyslForm0f54e31bd6c784f = "CopyslForm0f54e31bd6c784f";
     CopyslForm0f55439e69de643 = "CopyslForm0f55439e69de643";
+    CopyslForm0g34113d2fe7846 = "CopyslForm0g34113d2fe7846";
     CopyslForm0h597e84df95f47 = "CopyslForm0h597e84df95f47";
+    CopyslForm0i5f3a6546a2f42 = "CopyslForm0i5f3a6546a2f42";
+    CopyslForm0i8b9bc4514254e = "CopyslForm0i8b9bc4514254e";
     CopyslForm0jcbd1fa1bacd40 = "CopyslForm0jcbd1fa1bacd40";
     CopyslForm1 = "CopyslForm1";
     CopyslForm2 = "CopyslForm2";
@@ -294,6 +299,8 @@ function skinsInit() {
     sknFullKnowledge = "sknFullKnowledge";
     sknHamMenu = "sknHamMenu";
     sknImageAPI = "sknImageAPI";
+    sknIndexSelected = "sknIndexSelected";
+    sknIndexUnselected = "sknIndexUnselected";
     sknInterstitial = "sknInterstitial";
     sknLabel = "sknLabel";
     sknLabelHeading = "sknLabelHeading";

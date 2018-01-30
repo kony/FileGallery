@@ -117,14 +117,17 @@ define(function() {
                 this.view["flexScrollDesc" + i].isVisible = false;
             }
         },
-        onLinkClick: function() {
-            kony.application.openURL(this.view.sgmtAPI.selectedItems[0].link);
-        },
+        //         onLinkClick: function() {
+        //             kony.application.openURL(this.view.sgmtAPI.selectedItems[0].link);
+        //         },
         openEmail: function() {
             try {
                 var to = [""];
                 var sub = "Code Snippet - " + this.view.lblHeading.text;
-                var msgbody = this.view.rchDesc2.text;
+                var msg = this.view.rchDesc2.text;
+                var msg1 = msg.replace(/#f2f1f1/g, "#000000");
+                var msgbody = msg1.replace(/#ffffff/g, "#000000");
+                // alert(msgbody);
                 kony.phone.openEmail(to, [""], [""], sub, msgbody, true, []);
             } catch (err) {
                 alert("error in opening Email:: " + err);

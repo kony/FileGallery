@@ -42,7 +42,7 @@ function themeCallBack() {
         postappinit: applicationController.AS_AppEvents_b72cee78ea0842748f56e52da33b6e5c,
         appservice: applicationController.AS_AppEvents_de757c55a11441119168673966544f8d,
         showstartupform: function() {
-            var startForm = new kony.mvc.Navigation("frmAudioDetails");
+            var startForm = new kony.mvc.Navigation("frmSplash");
             startForm.navigate();
         }
     });

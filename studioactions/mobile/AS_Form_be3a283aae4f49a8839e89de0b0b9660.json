@@ -7,7 +7,6 @@
             "name": "eventobject"
         }],
         "contextObj": {
-            "name": "Form1",
             "type": "forms",
             "platform": "",
             "KUID": "b66960668193498493888871938e21f2"

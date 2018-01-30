@@ -25,7 +25,7 @@ define("frmSplash", function() {
             "layoutType": kony.flex.FREE_FORM,
             "needAppMenu": false,
             "preShow": controller.AS_Form_a12dba5bf03345e5a12dab74952cd5b4,
-            "skin": "slForm"
+            "skin": "CopyslForm0g34113d2fe7846"
         }, {
             "displayOrientation": constants.FORM_DISPLAY_ORIENTATION_PORTRAIT,
             "layoutType": kony.flex.FREE_FORM,

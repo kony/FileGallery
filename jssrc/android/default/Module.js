@@ -19,7 +19,11 @@ function showBattery() {
 */
 function setAudio(self, filename) {
     audioPageContext = self;
-    var destFilePath = kony.io.FileSystem.getDataDirectoryPath() + filename;
+    var destFilePath;
+    //var path =kony.io.FileSystem.getApplicationDirectoryPath ();
+    //myfile = kony.io.FileSystem.getFile(path+"/"+filename);
+    if (kony.os.deviceInfo().name === "iPhone") destFilePath = kony.io.FileSystem.getDataDirectoryPath() + "/" + filename;
+    else if (kony.os.deviceInfo().name === "android") destFilePath = kony.io.FileSystem.getDataDirectoryPath() + filename;
     kony.io.FileSystem.copyBundledRawFileTo(filename, destFilePath);
     var file = new kony.io.File(destFilePath);
     mediaObj = kony.media.createFromFile(file);
@@ -38,9 +42,10 @@ function mybatterychangecallback(batteryinfo) {
 	@function startAudio
     @description This API will play the audio for once
 */
-var basicConf, pspConf, infoAlert, actionSheetObject, actionItem1;
+var basicConf, pspConf, infoAlert;
 
 function startAudio() {
+    var actionSheetObject, actionItem1, actionItem2;
     flag = false;
     kony.os.registerBatteryService(mybatterychangecallback);
     batteryLevel = kony.os.getBatteryLevel();
@@ -77,11 +82,11 @@ function startAudio() {
             actionSheetObject.addAction(actionItem1);
             actionSheetObject.show();
         }
-    } else if (batteryLevel > "20" && batteryLevel >= "30") {
+    } else if (batteryLevel > "20" && batteryLevel <= "30") {
         if (kony.os.deviceInfo().name === "android") {
             //Defining basicConf parameter for alert
             basicConf = {
-                message: "Battery Level Below 30%.Do you want to play?",
+                message: "Battery level below 30%. Do you still want to play?",
                 alertType: constants.ALERT_TYPE_CONFIRMATION,
                 alertTitle: "Alert",
                 yesLabel: "Play",
@@ -94,20 +99,22 @@ function startAudio() {
             infoAlert = kony.ui.Alert(basicConf, pspConf);
         }
         if (kony.os.deviceInfo().name === "iPhone") {
-            var actionItem2 = new kony.ui.ActionItem({
+            actionItem2 = new kony.ui.ActionItem({
                 "title": "Cancel",
                 "style": constants.ACTION_ITEM_STYLE_DEFAULT,
-                "action": null
+                "action": function() {}
             });
             actionItem1 = new kony.ui.ActionItem({
                 "title": "Play",
                 "style": constants.ACTION_ITEM_STYLE_DEFAULT,
-                "action": actionOnPlay
+                "action": function() {
+                    mediaObj.play(1);
+                }
             });
             actionSheetObject = new kony.ui.ActionSheet({
                 "title": "Alert",
-                "message": "Battery Level Below 30%.Do you want to play?",
-                "showCompletionCallback": null
+                "message": "Battery level below 30%. Do you still want to play?",
+                "showCompletionCallback": function() {}
             });
             actionSheetObject.addAction(actionItem1);
             actionSheetObject.addAction(actionItem2);
@@ -221,7 +228,7 @@ var item = [
                 "src": "bankthumb.png"
             },
             "image": {
-                "src": "bank.jpg"
+                "src": "bank.png"
             }
         }, {
             "lblAPIname": {
@@ -278,7 +285,7 @@ var item = [
                 "src": "tabletthumb.png"
             },
             "image": {
-                "src": "tablet.jpg"
+                "src": "tablet.png"
             }
         }], {}
     ],
@@ -289,7 +296,8 @@ var item = [
         },
         [{
             "lblAPIname": {
-                "text": "first.mp3"
+                "text": "FIRST",
+                "filename": "first.mp3"
             },
             "imgMain": {
                 "height": "50dp",
@@ -305,7 +313,8 @@ var item = [
             }
         }, {
             "lblAPIname": {
-                "text": "second.mp3"
+                "text": "SECOND",
+                "filename": "second.mp3"
             },
             "imgMain": {
                 "height": "50dp",
@@ -321,7 +330,8 @@ var item = [
             }
         }, {
             "lblAPIname": {
-                "text": "third.mp3"
+                "text": "THIRD",
+                "filename": "third.mp3"
             },
             "imgMain": {
                 "height": "50dp",

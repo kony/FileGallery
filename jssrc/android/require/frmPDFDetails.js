@@ -66,6 +66,7 @@ define("frmPDFDetails", function() {
                 "left": "0dp",
                 "onClick": controller.AS_Button_h329eb0c40de49eda98976facc939d2b,
                 "skin": "headerButtonBackSkin",
+                "text": "Back",
                 "top": "0dp",
                 "width": "75dp",
                 "zIndex": 1
@@ -76,6 +77,22 @@ define("frmPDFDetails", function() {
                 "paddingInPixel": false
             }, {});
             headerContainer18.add(headerTitleLabel, headerIconLeft, headerButtonLeft);
+            var flxMenuLine = new kony.ui.FlexContainer({
+                "autogrowMode": kony.flex.AUTOGROW_NONE,
+                "bottom": "0dp",
+                "clipBounds": true,
+                "height": "1dp",
+                "id": "flxMenuLine",
+                "isVisible": true,
+                "layoutType": kony.flex.FREE_FORM,
+                "left": "0dp",
+                "skin": "CopyslFbox0ja0119efebbf44",
+                "top": "0%",
+                "width": "100%",
+                "zIndex": 6
+            }, {}, {});
+            flxMenuLine.setDefaultUnit(kony.flex.DP);
+            flxMenuLine.add();
             var flxData = new kony.ui.FlexContainer({
                 "autogrowMode": kony.flex.AUTOGROW_NONE,
                 "clipBounds": true,
@@ -85,7 +102,7 @@ define("frmPDFDetails", function() {
                 "layoutType": kony.flex.FREE_FORM,
                 "left": "0dp",
                 "skin": "sknFullFlex",
-                "top": "10%",
+                "top": "0%",
                 "width": "100%",
                 "zIndex": 1
             }, {}, {});
@@ -120,7 +137,7 @@ define("frmPDFDetails", function() {
             }, {}, {});
             footerEdit.setDefaultUnit(kony.flex.DP);
             footerEdit.add();
-            this.add(headerContainer18, flxData, footerEdit);
+            this.add(headerContainer18, flxMenuLine, flxData, footerEdit);
         };
         return [{
             "addWidgets": addWidgetsfrmPDFDetails,
@@ -128,12 +145,12 @@ define("frmPDFDetails", function() {
             "enableScrolling": false,
             "enabledForIdleTimeout": false,
             "id": "frmPDFDetails",
-            "layoutType": kony.flex.FREE_FORM,
+            "layoutType": kony.flex.FLOW_VERTICAL,
             "needAppMenu": false,
-            "skin": "slForm"
+            "skin": "CopyslForm0i8b9bc4514254e"
         }, {
             "displayOrientation": constants.FORM_DISPLAY_ORIENTATION_PORTRAIT,
-            "layoutType": kony.flex.FREE_FORM,
+            "layoutType": kony.flex.FLOW_VERTICAL,
             "padding": [0, 0, 0, 0],
             "paddingInPixel": false
         }, {

@@ -7,3 +7,4 @@ binarydata.createDownloadTask= function(databaseName,tableName,binaryColumnName,
 binarydata.clearBinaryDataManagerState= function(){};
 binarydata.getBinaryDataFilePath= function(databaseName,tableName,binaryColumnName,primaryKeyTable,successCallback,errorCallback){};
 binarydata.getOnlineBinaryData= function(fileParams,streaming,downloadConfig,fileDownloadStartedCallback,chunkDownloadCompletedCallback,fileDownloadCompletedCallback,downloadFailureCallback){};
+binarydata.uploadBinaryData= function(uploadParams,uploadStartedCallback,uploadChunkCompletedCallback,uploadCompletedCallback,uploadErrorCallback){};

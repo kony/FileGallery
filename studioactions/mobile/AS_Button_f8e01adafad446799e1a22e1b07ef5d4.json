@@ -1,0 +1,30 @@
+{
+    "AS_Button_f8e01adafad446799e1a22e1b07ef5d4": {
+        "id": "AS_Button_f8e01adafad446799e1a22e1b07ef5d4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmLandingPage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "aec5d8dea32d4c429de590a2a4c116d6"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a9c9519c44e742bcb9b2bf40ef939231",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.listMenuClick();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

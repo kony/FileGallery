@@ -64,6 +64,7 @@
     "name": "kony.ui.Label",
     "parent": "headerContainer07",
     "pf": "frmLandingPage",
+    "textstyle": {},
     "tooltip": "",
     "wType": "Label",
     "zindex": 1

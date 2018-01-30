@@ -159,7 +159,7 @@ define("frmLandingPage", function() {
                 "id": "headerButtonLeft",
                 "isVisible": true,
                 "left": "0dp",
-                "onTouchEnd": controller.AS_Button_e3563177c78f48e6bb8bc15834ccac84,
+                "onTouchEnd": controller.AS_Button_f8e01adafad446799e1a22e1b07ef5d4,
                 "skin": "headerButtonClearSkin",
                 "top": "0dp",
                 "width": "60dp",

@@ -60,6 +60,7 @@
     "name": "kony.ui.Label",
     "parent": "flxSubheader",
     "pf": "frmLandingPage",
+    "textstyle": {},
     "tooltip": "",
     "wType": "Label",
     "zindex": 1

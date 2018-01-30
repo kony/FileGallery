@@ -259,7 +259,7 @@ var item = [
           "src" : "bankthumb.png" 
         },
         "image":{
-          "src":"bank.jpg"
+          "src":"bank.png"
         }
       },
       {
@@ -328,7 +328,7 @@ var item = [
           "src" : "tabletthumb.png" 
         },
         "image":{
-          "src":"tablet.jpg"
+          "src":"tablet.png"
         }
       }
     ],{}

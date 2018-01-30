@@ -25,10 +25,12 @@
     ],
     "containerweight": 100,
     "currentLocale": "default",
-    "device": "iPhone6",
+    "device": "iPhoneX",
     "displayorientation": 3,
     "enabledforidletimeout": false,
-    "globalUserWidgetRefs": [],
+    "globalUserWidgetRefs": [
+        "u5a5c920c8c3465596a262218b26eafd"
+    ],
     "id": "userwidgetmodel",
     "info": null,
     "initdone": false,
@@ -50,7 +52,7 @@
     "prevDevice": "GalaxyS5",
     "prevPlatform": "android",
     "retainscrollposition": false,
-    "shellCSS": "iOS_iPhone6",
+    "shellCSS": "iOS_iPhoneX",
     "titleBarSkin": "s144684a66df4b9e80d9d4b3b9558ed9",
     "titlebar": true,
     "type": 3,
