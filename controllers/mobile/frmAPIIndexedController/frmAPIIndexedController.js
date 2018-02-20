@@ -115,6 +115,7 @@ define({
     },
 
     listMenuClick: function() {
+    	var controllerScope = this;
         this.view.skin = "sknMenuBlue";
         this.view.flxCover.zIndex = 10;
         this.view.flxCover.isVisible = true;

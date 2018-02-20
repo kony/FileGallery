@@ -194,6 +194,7 @@ function stopAudio()
 {
   flag = true;
   mediaObj.stop(); 
+  audioPageContext.view.sliderAudio.selectedValue = 0;
 }
 function OnMediaProgress(position)
 {
